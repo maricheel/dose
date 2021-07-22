@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".ReportActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="142dp"
+        android:elevation="5dp"
+        android:background="@drawable/header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+
+    <ImageView
+        android:id="@+id/imageViewBlood"
+        android:layout_width="122dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:elevation="5dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/viewreport"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/subtitle_header"
+        android:layout_width="156dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
+        android:elevation="5dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="We are here to"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewBlood"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:elevation="5dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/roboto"
+
+        android:text="help"
+        android:textColor="#2B3FEE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewBlood"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.653" />
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="418dp"
+        android:layout_height="232dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationViewR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonlogin1r"
+                android:layout_width="240dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_report_blue"
+                android:fontFamily="@font/tregular"
+                android:gravity="center"
+                android:text="@string/EnvRapp"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:stateListAnimator="@null"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonLogin2r"
+                android:layout_width="240dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_report_grey"
+                android:fontFamily="@font/tregular"
+                android:gravity="center"
+                android:text="@string/generateing_pdf"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:stateListAnimator="@null"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:stateListAnimator="@null">
+
+            <Button
+                android:id="@+id/buttonLogin3r"
+                android:layout_width="240dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_report_green"
+                android:fontFamily="@font/tregular"
+                android:gravity="center"
+                android:text="@string/NoteMdc"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:stateListAnimator="@null"/>
+
+
+            <TextView
+                android:id="@+id/comptmsg"
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+
+                android:layout_alignEnd="@+id/buttonLogin3r"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="-7dp"
+                android:background="@drawable/circle"
+                android:elevation="100dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:textColor="#F1E9E9"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/buttonLogin3r"
+
+                android:layout_alignLeft="@+id/buttonLogin3r"
+                android:layout_alignTop="@+id/buttonLogin3r"
+                android:layout_alignEnd="@+id/buttonLogin3r"
+                android:layout_alignRight="@+id/buttonLogin3r"
+                android:layout_alignBottom="@+id/buttonLogin3r"
+                android:layout_marginStart="262dp"
+                android:layout_marginLeft="262dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginRight="84dp"
+                android:layout_marginBottom="15dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+
+        android:layout_height="52dp"
+        android:paddingTop="16dp"
+        android:gravity="left"
+        android:background="@color/white"
+        android:elevation="5dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <com.tbuonomo.morphbottomnavigation.MorphBottomNavigationView
+        android:id="@+id/bottomNavigationViewR"
+        style="@style/BottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        app:backgroundTint="#2b3fee"
+        app:itemIconTint="#fff"
+        app:itemTextColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_items"
+        app:morphCornerRadius="128dp"
+        app:morphItemRadius="64dp"
+        app:morphVerticalOffset="8dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

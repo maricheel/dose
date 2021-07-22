@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pjhamb"
+            android:icon="@drawable/junkfood"
+            android:title="@string/collation" />
+        <item
+            android:id="@+id/djcof"
+            android:icon="@drawable/teapot"
+            android:title="@string/petitDej" />
+        <item
+            android:id="@+id/colrice"
+            android:icon="@drawable/rice"
+            android:title="@string/dinner" />
+
+
+        <item
+            android:id="@+id/dinch"
+            android:icon="@drawable/meat"
+            android:title="@string/dej" />
+    </group>
+</menu>

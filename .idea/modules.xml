@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IF-DOSE.iml" filepath="$PROJECT_DIR$/IF-DOSE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IF-DOSE.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IF-DOSE.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/slycalendarview/IF-DOSE.slycalendarview.iml" filepath="$PROJECT_DIR$/.idea/modules/slycalendarview/IF-DOSE.slycalendarview.iml" />
+    </modules>
+  </component>
+</project>

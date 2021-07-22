@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/test"
+            android:title="@string/activity_calcul_title"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/user"
+            android:title="@string/infpPers" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/blood"
+            android:title="@string/gluco_concentration" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/medicalhistory"
+            android:title="@string/rapport_btn" />
+
+        <item
+            android:id="@+id/nav_camera2"
+            android:icon="@drawable/meat"
+            android:title="@string/add_new_meal" />
+    </group>
+</menu>

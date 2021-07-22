@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alignmentMode="alignBounds"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:useDefaultMargins="true"
+
+    tools:context=".WelcomeActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#FFF"
+            tools:context=".MainActivity">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="8dp"
+
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/name_text_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp"
+
+                    android:layout_gravity="center"
+                    app:errorEnabled="true"
+
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/name_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rectangle170"
+                        android:gravity="center"
+                        android:hint="@string/qtglucolabel"
+
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:textSize="16dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <HorizontalScrollView
+                    android:id="@+id/scrollView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="25dp"
+                    android:orientation="horizontal"
+                    android:scrollbars="none"
+                    app:layout_constraintBottom_toTopOf="@+id/textView8"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name_text_input">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnbrakfast"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/rectangle186"
+                            android:drawableTop="@drawable/group455"
+                            android:padding="20dp"
+                            android:text="@string/pd"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+
+                        <Button
+                            android:id="@+id/btnlunch"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/rectangle186"
+                            android:drawableTop="@drawable/group630"
+                            android:padding="20dp"
+                            android:text="@string/Dej"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/btnsnack"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/rectangle186"
+                            android:drawableTop="@drawable/group470"
+                            android:padding="20dp"
+                            android:text="@string/collation"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/btndinner"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/rectangle186"
+                            android:drawableTop="@drawable/rice"
+                            android:padding="20dp"
+                            android:text="@string/dinner"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <View
+                            android:id="@+id/view"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/header"
+                            android:elevation="5dp" />
+
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="@string/mdc"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/groupradio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+
+                    android:gravity="center"
+
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/radioAvecLivret1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/rectangle179"
+                        android:buttonTint="#2B3FEE"
+
+                        android:checked="true"
+                        android:text="Avec livret"
+                        android:textColor="#2B3FEE"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioSansLivret"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:background="@drawable/rectangle180"
+                        android:buttonTint="#D2D2D2"
+                        android:text="Sans livret"
+                        android:textColor="#D2D2D2"
+                        android:textSize="16sp" />
+                </RadioGroup>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="33dp">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/food_text_input"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rectangle170"
+                        android:gravity="center"
+
+
+                        app:layout_constraintBottom_toBottomOf="parent"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="35dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_arrow_drop_up_1"
+                        app:layout_constraintBottom_toBottomOf="@+id/food_text_input"
+                        app:layout_constraintEnd_toEndOf="@+id/food_text_input"
+                        app:layout_constraintHorizontal_bias="0.054"
+                        app:layout_constraintStart_toStartOf="@+id/food_text_input"
+                        app:layout_constraintTop_toTopOf="@+id/food_text_input"
+                        app:layout_constraintVertical_bias="0.515" />
+
+                    <ImageView
+                        android:id="@+id/imageVie"
+                        android:layout_width="30dp"
+
+
+                        android:layout_height="26dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/ic_sup"
+
+                        app:layout_constraintBottom_toBottomOf="@+id/food_text_input"
+                        app:layout_constraintEnd_toEndOf="@+id/food_text_input"
+                        app:layout_constraintHorizontal_bias="0.946"
+                        app:layout_constraintStart_toStartOf="@+id/food_text_input"
+                        app:layout_constraintTop_toTopOf="@+id/food_text_input"
+                        app:layout_constraintVertical_bias="0.695" />
+
+                    <ImageView
+                        android:id="@+id/imageVie1"
+                        android:layout_width="30dp"
+
+
+                        android:layout_height="26dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/ic_sup1"
+
+                        app:layout_constraintBottom_toBottomOf="@+id/food_text_input"
+                        app:layout_constraintEnd_toEndOf="@+id/food_text_input"
+                        app:layout_constraintHorizontal_bias="0.812"
+                        app:layout_constraintStart_toStartOf="@+id/food_text_input"
+                        app:layout_constraintTop_toTopOf="@+id/food_text_input"
+                        app:layout_constraintVertical_bias="0.739" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+
+                    <Spinner
+                        android:id="@+id/foodQtytype_spinner"
+                        style="@style/SpinnerStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/rectangle182"
+                        android:entries="@array/unite"
+
+                        android:gravity="center">
+
+
+                    </Spinner>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/foodQty_text_input"
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+
+                        >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/foodQty_edit_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="25dp"
+                            android:background="@drawable/rectangle181"
+                            android:gravity="center"
+                            android:hint="@string/add_qt"
+
+                            android:inputType="numberDecimal"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textColorHint="@color/colorPrimaryDark"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/name_text_inpu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-12dp"
+                    app:errorEnabled="true"
+
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/name_edit_tex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rectangle170"
+                        android:gravity="center"
+                        android:hint="@string/qtdglucolabel"
+
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:textSize="16dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/buttonLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginEnd="47dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle159"
+                    android:gravity="center"
+                    android:onClick="addAliment"
+                    android:text="@string/addalim"
+                    android:textAllCaps="false"
+                    android:textColor="#2B3FEE"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/SHowFood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="20dp"
+
+
+                    android:text="@string/listalim"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+
+                <com.baoyz.swipemenulistview.SwipeMenuListView
+                    android:id="@+id/listview"
+                    android:layout_width="370dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="21dp"
+                    android:divider="@color/colorPrimaryDark"
+
+
+                    android:dividerHeight="1dp"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/textViewActivity"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="20dp"
+                    android:gravity="center"
+                    android:text="@string/act"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="33dp">
+
+                    <Spinner
+                        android:id="@+id/Active"
+                        style="@style/SpinnerStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle170"
+                        android:entries="@array/activite_physique"
+                        android:gravity="right"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="MissingConstraints" />
+
+
+                    <ImageView
+                        android:id="@+id/imageV"
+                        android:layout_width="35dp"
+
+
+                        android:layout_height="29dp"
+                        android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_arrow_drop_up_1"
+                        app:layout_constraintBottom_toBottomOf="@+id/Active"
+                        app:layout_constraintEnd_toEndOf="@+id/Active"
+
+                        app:layout_constraintHorizontal_bias="0.054"
+                        app:layout_constraintStart_toStartOf="@+id/Active"
+                        app:layout_constraintTop_toTopOf="@+id/Active"
+                        app:layout_constraintVertical_bias="0.8" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <Button
+                    android:id="@+id/buttonLogin1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/ectangle159"
+                    android:gravity="center"
+                    android:onClick="calcul"
+                    android:text="@string/calculer"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="91dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="70dp"
+                android:elevation="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.95"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/group454" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="191dp"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="114dp"
+                android:elevation="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.168"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/diabetestaughtmediscipline" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/white"
+        android:gravity="left"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="9dp"
+
+
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <com.tbuonomo.morphbottomnavigation.MorphBottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        style="@style/BottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        app:backgroundTint="#2b3fee"
+        app:itemIconTint="#fff"
+        app:itemTextColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_items"
+        app:morphCornerRadius="128dp"
+        app:morphItemRadius="64dp"
+        app:morphVerticalOffset="8dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

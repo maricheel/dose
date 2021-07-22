@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+        <EditTextPreference
+            android:defaultValue="@string/host_adr"
+            android:icon="@drawable/url_link"
+            android:key="host_url"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/host_url" />
+
+        <Preference
+            android:gravity="center"
+            android:icon="@drawable/about"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/a_propos" />
+
+
+        <EditTextPreference
+            android:defaultValue="@string/host_port"
+            android:icon="@drawable/port"
+            android:key="host_port"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/port" />
+
+
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:enabled="false"
+            android:icon="@drawable/bug_report"
+            android:key="pref_debug"
+            android:singleLine="true"
+            android:title="@string/pref_debug" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

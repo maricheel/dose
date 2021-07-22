@@ -1,0 +1,200 @@
+<resources>
+    <string name="action_settings">الاٍعدادات</string>
+    <string name="app_name">"IF-Diabète" </string>
+    <string name="action_langue">االلغة</string>
+    <string name="langue_AR">عربية</string>
+    <string name="langue_FR">française</string>
+    <string name="sign">تسجيل الدخول</string>
+    <string name="entetcalculepre">"علمني مرض السكري"</string>
+    <string name="entetcalculesec">"الانضباط"</string>
+    <!-- Preferences -->
+    <string name="medecin_email" translatable="false">\@gmail.com</string>
+    <!--prod ou dev-->
+    <string name="app_mode" translatable="false">dev</string>
+    <string name="alert_msg">هنالك مشكل المرجو التأكد</string>
+    <string name="alert_btn_ok">رجوع</string>
+    <string name="alert_btn_parametres">الإعدادات</string>
+    <!-- Test env -->
+    <string name="urlAlim" translatable="false">/api/aliments/id=</string>
+    <string name="urlLogin">/api/users/pass=</string>
+    <string name="host_adr">http://f9735e658073.ngrok.io</string>
+    <string name="host_port">80</string>
+    <string name="pref_previously_started">pref_prev_started_key</string>
+    <string name="urlAliments" translatable="false">/api/aliments</string>
+    <string name="host_url">عنوان الموقع</string>
+    <string name="port">المنفذ</string>
+    <string name="medcen_emai">البريد الالكتروني للطبيب</string>
+    <string name="mon_mail">بريدي الالكتروني</string>
+    <string name="a_propos">حول تطبيقك</string>
+    <string name="pref_debug" translatable="false">تصحيح</string>
+    <!-- LOGIN -->
+    <string name="welcome"> مرحبا بعودتك</string>
+    <string name="sign_in_label">الولوج الى الحساب الخاص بك</string>
+    <string name="login_password">كلمة المرور</string>
+    <string name="take_control">تحكم بمرض السكري</string>
+    <string name="confirme">مصادقة ...</string>
+    <string name="motpss_inco">كلمة المرور غير صحيحة</string>
+    <string name="no_singin">فشل تسجيل الدخول</string>
+    <string name="nmbr_MPaS">8 أحرف أبجدية رقمية</string>
+    <string name="y_singin">تم التسجيل بنجاح</string>
+    <!-- PROFILE -->
+    <string name="g_l">" غرام/لتر"</string>
+    <!-- REPORT -->
+    <string name="permission_denied">تم رفض الإذن</string>
+    <string name="generateing_pdf">"طباعة التقارير "</string>
+    <string name="report_sent_succeded">تم ارسال التقرير بنجاح</string>
+    <string name="report_sent_failed">لم يتم الارسال بنجاح</string>
+    <string name="urlGeneratePDF" translatable="false">/api/sendReport</string>
+    <string name="pdf_printed">"Le rapport a été imprimé "</string>
+    <!-- GLUCO -->
+    <string name="h1">" ادخل كمية الجلوكوز قبل الوجبة هنا"</string>
+    <string name="h2">ادخل كمية الجلوكوز هنا</string>
+    <string name="h3">ادخل نسبة الانسولين الواجب حقنها هنا</string>
+    <string name="h4">ادخل نسبة الانسولين المؤكد حقنها هنا</string>
+    <string name="glucide_avant_repas_tv">الجلوكوز قبل الوجبة :</string>
+    <string name="insulin_confirme_tv">نسبة الأنسولين المؤكد حقنها :</string>
+    <string name="insuline_calcule_tv">نسبة الأنسولين الواجب حقنها :</string>
+    <string name="glucide_apres_4_tv">بعد 4 ساعات</string>
+    <string name="add_comment">إضافة تعليق</string>
+    <!-- REPAS -->
+    <string name="meal_name">إسم الأكلة :</string>
+    <string name="meal_type">نوع الأكلة :</string>
+    <string name="add_qt">ادخل الكمية</string>
+    <string name="add_meal_success">تمت إضافة الأكلة بنجاح</string>
+    <string name="add_meal_fail">لم يتم إضافة الأكلة</string>
+    <string-array name="unite">
+        <item>غرام</item>
+        <item>مل</item>
+        <item>قطعة</item>
+        <item>طبق</item>
+        <item>كاس</item>
+    </string-array>
+    <string-array name="meal_type">
+        <item>الفطور</item>
+        <item>الغذاء</item>
+        <item>وجبة خفيفة</item>
+        <item>العشاء</item>
+    </string-array>
+    <string-array name="calcul_type">
+        <item>Avec livret</item>
+        <item>Sans livret</item>
+    </string-array>
+    <string name="Q_glicus">"المرجو ادخال نسبة الجلوكوز قبل الوجبة "</string>
+    <string name="Q_repas">"المرجو ادخال  "</string>
+
+    <string name="quntiteglucose">يرجى إدخال كمية الجلوكوز</string>
+    <string name="meal_glucide_qt">"نسبة الجلوكوز في الوجبة "</string>
+    <string name="unite_a_injecter">نسبة الأنسولين الواجب حقنها :</string>
+    <string name="unite_injecte_confirme">نسبة الأنسولين المؤكد حقنها :</string>
+    <string name="Pièce">قطعة</string>
+    <string name="repas">طبق</string>
+    <string name="c">كاس</string>
+    <string-array name="activite_physique">
+        <item>لا شيء</item>
+        <item>ضعيفة</item>
+        <item>متوسطة</item>
+        <item>قوية</item>
+    </string-array>
+    <string name="bugfender_app_key" translatable="false">الإفطار</string>
+    <string name="qantite">المرجو ادخال الكمية</string>
+    <string name="unite">المرجو إدخال الوحدة المناسبة</string>
+    <string name="bienEnvoi">لقد تمت الإضافة</string>
+    <string name="Taux_insuline">"المرجو ادخال نسبة الأنسولين المؤكد حقنها "</string>
+    <string name="notification_title">IFDose | حاسب الأنسولين</string>
+    <string name="notification_text">المرجو الضغط على الإشعار لإدخال قيمة الجلوكوز بعد 4 ساعات</string>
+    <string name="GlucoseAv4h">" المرجو ادخال الجلوكوز بعد 4 ساعات عن الوجبة  "</string>
+    <string name="urlPostRapport" translatable="false">/api/rapport/id=</string>
+    <string name="report_info_sent_success">تم ارسال المعلومات بنجاح</string>
+    <string name="report_info_sent_fail">لم يتم الارسال</string>
+    <string name="Petit_dej">الإفطار</string>
+    <string name="Dej">الغداء</string>
+    <string name="EnvRapp">"حفظ التقرير "</string>
+    <string name="add_new_meal">إضافة أكلة جديدة</string>
+    <string name="glucose_qt">كمية الجلوكوز</string>
+    <string name="add_meal">أظف الٱكلة</string>
+    <string name="gluco_concentration">تركيز السكر</string>
+    <string name="save_glucide_apres4_btn">حفظ</string>
+    <string name="infpPers">البيانات الشخصية</string>
+    <string name="petitDej">الفطور</string>
+    <string name="FPD">معامل الافطار هنا</string>
+    <string name="dej">الغداء</string>
+    <string name="FD">معامل الغداء هنا</string>
+    <string name="collation">وجبة خفيفة</string>
+    <string name="FC">معامل الوجبة الخفيفة هنا</string>
+    <string name="dinner">"العشاء "</string>
+    <string name="FDn">معامل العشاء هنا</string>
+    <string name="indiceSensibilite">مؤشر الحساسية</string>
+    <string name="FSensibilite">معامل مؤشر الحساسية هنا</string>
+    <string name="rapport_btn">تقريري</string>
+    <string name="NoteMdc">ملاحظات الطبيب</string>
+    <string name="activity_calcul_title">حساب الجلوكوز</string>
+    <string name="Monhorairequotidien">جدولي اليومي</string>
+
+    //chat
+    <string name="RappNoEnv">خطأ: لم يتم إرسال التقرير</string>
+    <string name="rdinO">"تم زيادة معامل العشاء إلى "</string>
+    <string name="pasdrapport">لا يوجد تقرير</string>
+    <string name="annule">إلغاء</string>
+    <string name="envoi">إرسال</string>
+    <string name="envoiS">إرسال التقارير</string>
+    <string name="msgdemand">" من فضلك أرسل لي تقارير من "</string>
+    <string name="rapportdu">تقرير</string>
+    <string name="estenv">أرسل</string>
+    <string name="rpdO">تم زيادة معامل الإفطار إلى</string>
+    <string name="rpdR">"تم تخفيض معامل الإفطار إلى "</string>
+    <string name="rdO">تم زيادة معامل الغداء إلى</string>
+    <string name="rdjR">"تم تخفيض معامل الغداء إلى "</string>
+    <string name="rcO">"تم زيادة معامل الوجبات الخفيفة إلى "</string>
+    <string name="rcR">"تم تخفيض معامل الوجبات الخفيفة إلى "</string>
+    <string name="rdinR">"تم تخفيض معامل العشاء إلى "</string>
+    <string name="msgnotif">تغيير المعامل</string>
+    <string name="du">من</string>
+    <string name="au">الى</string>
+    //new
+    <string name="qtglucolabel">ادخل كمية الجلوكوز قبل الوجبة</string>
+    <string name="pd">الفطور</string>
+    <string name="mdc">طريقة الحساب</string>
+    <string name="addalim">اضف الاكلة</string>
+    <string name="listalim">قائمة الماكولات</string>
+    <string name="act">الانشطة الرياضية</string>
+    <string name="calculer">احسب الآن</string>
+    <!-- Calendar -->
+    <string name="slycalendar_cancel">إلغاء</string>
+    <string name="slycalendar_save">تأكيد</string>
+    <string name="slycalendar_next">التالي</string>
+    <string name="slycalendar_prev">السابق</string>
+    <string name="lange">ar</string>
+    <string name="period" translatable="false">%1$s – %2$s</string>
+    <string name="rappsave">تم حفظ التقرير</string>
+    <string name="rappnosave">خطأ: لم يتم حفظ التقرير</string>
+    <string name="svpentredat">يرجى تحديد التاريخ</string>
+
+
+    <string name="glucosup">المرجو التحقق من كمية الجلوكوز قبل الوجبة</string>
+    <string name="pupaptitle">التأكيد</string>
+    <string name="pupapmsg">اهل انت متاكد من كمية الجلوكوز </string>
+    <string name="msgconfirmation">المرجو اختيار اكلة من القائمة </string>
+    <string name="infoalim">معلومات عن الوجبة </string>
+    <string name="commentaire">إضافة تعليق</string>
+    <string name="param">الاعدادات</string>
+    <string name="adrsite">عنوان الموقع</string>
+    <string name="ports">المنفذ</string>
+    <string name="avec_livret">Avec livret</string>
+    <string name="sans_livret">Sans livret</string>
+    <string name="se_d_connecter">خروج</string>
+    <string name="a">الى</string>
+    <string name="conf">تم تأكيد نتائجك</string>
+    <string name="bien">"جيد "</string>
+
+
+    <string name="exit">خروج</string>
+    <string name="estsur">هل أنت متاكد؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="Q_glicusd">"المرجو ادخال نسبة الجلوكوز في الوجبة "</string>
+    <string name="qtdglucolabel">ادخل كمية الجلوكوز في الوجبة</string>
+    <string name="error">خطا في الخادم</string>
+    <string name="pas_pu">عذرا ، لم نتمكن من الاتصال بالخادم</string>
+
+
+</resources>

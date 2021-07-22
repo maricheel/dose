@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: com.borax12.materialdaterangepicker:library:2.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/1aea36ae1d6202fc756062a073be629b/jetified-library-2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/1aea36ae1d6202fc756062a073be629b/jetified-library-2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66dbf80e2355e16b09edaf78dd92a2de/jetified-library-2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66dbf80e2355e16b09edaf78dd92a2de/jetified-library-2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66dbf80e2355e16b09edaf78dd92a2de/jetified-library-2.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e34779ef4bd7a95249b4faf09487f0c0/jetified-library-2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e34779ef4bd7a95249b4faf09487f0c0/jetified-library-2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e34779ef4bd7a95249b4faf09487f0c0/jetified-library-2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.borax12.materialdaterangepicker/library/2.0/bff7140c4f7762676431ffe909ffe5de2aa6ec04/library-2.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.borax12.materialdaterangepicker/library/2.0/bff7140c4f7762676431ffe909ffe5de2aa6ec04/library-2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.borax12.materialdaterangepicker/library/2.0/f7ebe1ff2e8fc4ef22495f16f82aca5d57b27129/library-2.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.borax12.materialdaterangepicker/library/2.0/f7ebe1ff2e8fc4ef22495f16f82aca5d57b27129/library-2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

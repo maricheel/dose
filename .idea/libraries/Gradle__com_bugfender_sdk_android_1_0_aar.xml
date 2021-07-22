@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bugfender.sdk:android:1.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/56f2f283e5b082082316db5a451f5842/jetified-android-1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/56f2f283e5b082082316db5a451f5842/jetified-android-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d39e86c88703c71ff1081f71b266895b/jetified-android-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bfcad25e1c8dadc3ce95aea55fb9326f/jetified-android-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ecfd9eec7797a1b3917464c71a63d0c/jetified-android-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/807305b143b984443ac2f91e4d02af5b/jetified-android-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/807305b143b984443ac2f91e4d02af5b/jetified-android-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/807305b143b984443ac2f91e4d02af5b/jetified-android-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1935d6c70cbf06f63c0da4b49bcefea/jetified-android-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1935d6c70cbf06f63c0da4b49bcefea/jetified-android-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1935d6c70cbf06f63c0da4b49bcefea/jetified-android-1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.bugfender.sdk/android/1.0/362849bf63699eca3647b78ca6e4617a2c52307b/android-1.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bugfender.sdk/android/1.0/362849bf63699eca3647b78ca6e4617a2c52307b/android-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

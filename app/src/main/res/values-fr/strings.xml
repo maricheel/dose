@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Paramètres</string>
+    <string name="app_name">"IF-Diabète" </string>
+    <string name="action_langue">Langue</string>
+    <string name="langue_FR">française</string>
+    <string name="langue_AR">عربية</string>
+    <string name="sign">Se connecter</string>
+    <string name="entetcalculepre">"Le diabète m'a appris"</string>
+    <string name="entetcalculesec">"la discipline"</string>
+    <!--prod ou dev-->
+    <string name="app_mode" translatable="false">dev</string>
+    <string name="alert_msg">"Il y a un problème, assurez-vous "</string>
+    <string name="alert_btn_ok">Retour</string>
+    <string name="alert_btn_parametres">Paramètres</string>
+    <!-- Test env -->
+    <string name="urlLogin" translatable="false">/api/users/pass=</string>
+    <string name="host_adr" translatable="false">http://f9735e658073.ngrok.io</string>
+    <string name="host_port" translatable="false">80</string>
+    <string name="pref_previously_started" translatable="false">pref_prev_started_key</string>
+    <string name="a_propos">A propos</string>
+    <string name="mon_mail">Mon email</string>
+    <string name="medcen_emai">E-mail du médecin</string>
+    <string name="port">Port</string>
+    <string name="host_url">Adresse du site</string>
+
+    <!-- LOGIN -->
+    <string name="welcome">Bienvenue</string>
+    <string name="login_password">"Mot de passe "</string>
+    <string name="sign_in_label">"Connectez-vous avec votre compte"</string>
+    <string name="take_control">Surveillez votre diabète</string>
+    <string name="confirme">Authentifier ...</string>
+    <string name="nmbr_MPaS">8 caractères alphanumériques</string>
+    <string name="no_singin">Échec de la connexion</string>
+    <string name="motpss_inco">Le mot de passe est incorrect</string>
+    <string name="y_singin">"Inscription terminée avec succès"</string>
+    <!-- PROFILE -->
+    <string name="g_l">g/l</string>
+    <!-- REPORT -->
+    <string name="permission_denied">Permission refusée</string>
+    <string name="generateing_pdf">Imprimer rapports</string>
+    <string name="report_sent_succeded">"Le rapport a été imprimé avec succès "</string>
+    <string name="report_sent_failed">"Non envoyé "</string>
+    <string name="pdf_printed">"Le rapport a été imprimé "</string>
+    <!-- GLUCO -->
+    <string name="h1">" Entrez ici la quantité de glucose avant le repas"</string>
+    <string name="h2">Entrez ici la quantité de glucose</string>
+    <string name="h3">"Entrez ici le pourcentage d'insuline à injecter"</string>
+    <string name="h4">"Entrez le pourcentage d'insuline confirmée injecté ici"</string>
+    <string name="glucide_avant_repas_tv">Glucose avant un repas:</string>
+    <string name="insulin_confirme_tv"> "Taux d'insuline confirmé:"</string>
+    <string name="insuline_calcule_tv">Pourcentage d\'insuline à injecter:</string>
+    <string name="glucide_apres_4_tv">Après 4 heures</string>
+    <string name="add_comment">Ajoutez un commentaire</string>
+    <!-- REPAS -->
+    <string name="meal_name">"Nom d'aliment"</string>
+    <string name="meal_type">"Type d'aliment"</string>
+    <string name="add_qt">Entrez la quantité</string>
+    <string name="add_meal_success" >"Le repas a été ajouté avec succès"</string>
+    <string name="add_meal_fail">"Le repas n'a pas été ajouté"</string>
+
+    <string-array name="unite">
+        <item>g</item>
+        <item>ml</item>
+        <item>Morceau</item>
+        <item>Plat</item>
+        <item>Coupe</item>
+    </string-array>
+    <string-array name="meal_type">
+        <item>Petit déjeuner</item>
+        <item>Déjeuner</item>
+        <item>Collation</item>
+        <item>Le dîner</item>
+    </string-array>
+    <string-array name="calcul_type">
+        <item>Avec livret</item>
+        <item>Sans livret</item>
+    </string-array>
+    <string name="Q_glicus">"Veuillez entrer le glucose avant le repas"</string>
+    <string name="Q_repas">"Veuillez sellect "</string>
+    <string name="quntiteglucose">Veuillez entrer la quantité de glucose</string>
+    <string name="meal_glucide_qt">"Teneur en glucose dans le repas: "</string>
+    <string name="unite_a_injecter">" Le pourcentage d'insuline à injecter:"</string>
+    <string name="unite_injecte_confirme">" Le pourcentage d'insuline confirmé:"</string>
+    <string name="Pièce">Morceau</string>
+    <string name="repas">Plat</string>
+    <string name="c">Coupe</string>
+    <string-array name="activite_physique">
+        <item>Rien</item>
+        <item>Faible</item>
+        <item>Moyen </item>
+        <item>Fort</item>
+    </string-array>
+    <string name="qantite">Veuillez saisir la quantité</string>
+    <string name="unite">Veuillez entrer l\'unité appropriée</string>
+    <string name="bienEnvoi">A été ajouté</string>
+    <string name="Taux_insuline">Veuillez saisir le pourcentage d\'insuline confirmée injectée</string>
+    <string name="notification_title">" IFDose | Calculateur d'insuline"</string>
+    <string name="notification_text">"Veuillez cliquer sur la notification pour entrer la valeur de glucose après 4 heures "</string>
+    <string name="GlucoseAv4h">Veuillez entrer le glucose 4 heures après le repas</string>
+    <string name="report_info_sent_success">"L'information a été envoyée avec succès "</string>
+    <string name="report_info_sent_fail">"Non envoyé "</string>
+    <string name="Petit_dej">"Petit déjeuner "</string>
+    <string name="Dej">Déjeuner</string>
+    <string name="EnvRapp">Enregistrer rapport</string>
+    <string name="add_new_meal">Ajouter repas</string>
+    <string name="glucose_qt">La quantité de glucose</string>
+    <string name="add_meal">Ajouter</string>
+    <string name="gluco_concentration"> Glucose</string>
+    <string name="save_glucide_apres4_btn">Enregistrer</string>
+    <string name="infpPers">Profil</string>
+    <string name="petitDej">"Petit déjeuner "</string>
+    <string name="FPD">Le coefficient de petit déjeuner  est ici</string>
+    <string name="dej">"Déjeuner"</string>
+    <string name="FD">Le coefficient de déjeuner est ici</string>
+    <string name="collation">Collation</string>
+    <string name="FC">Le coefficient de collation est ici</string>
+    <string name="dinner">"Le dîner "</string>
+    <string name="FDn">Le coefficient de dîner est ici</string>
+    <string name="indiceSensibilite">"Indice de sensibilité "</string>
+    <string name="FSensibilite">L\'indice du coefficient de sensibilité est ici</string>
+    <string name="rapport_btn">Rapport</string>
+    <string name="NoteMdc">"Notes du médecin"</string>
+    <string name="activity_calcul_title">Calcul </string>
+    <string name="Monhorairequotidien">Profil</string>
+
+    //chat
+    <string name="RappNoEnv">"Erreur : Rapport non envoyé "</string>
+    <string name="rpdO">"Ratio du petit déjeuner augmenté à "</string>
+    <string name="rdjR">"Ratio du déjeuner a eté reduit à "</string>
+    <string name="rdO">"Ratio du déjeuner augmenté à "</string>
+    <string name="rpdR">"Ratio du petit déjeuner réduit à "</string>
+    <string name="rcO">"Ratio du collation augmenté à "</string>
+    <string name="rcR">"Ratio du collation réduit à "</string>
+    <string name="rdinO">"Ratio du dînner augmenté à "</string>
+    <string name="rdinR">"Ratio du dînner  réduit à "</string>
+    <string name="msgdemand">Veuillez m\'envoyer les rapports du</string>
+    <string name="rapportdu">" Rapport du "</string>
+    <string name="estenv">envoyer</string>
+    <string name="envoiS">L\'envoi des rapports</string>
+    <string name="envoi">Envoyer</string>
+    <string name="pasdrapport">Pas de rapport.</string>
+    <string name="annule">Annule</string>
+    <string name="msgnotif">Changement de ratio</string>
+    <string name="urlAliments" translatable="false">/api/aliments</string>
+    <string name="urlAlim" translatable="false">/api/aliments/id=</string>
+    <string name="medecin_email" translatable="false">\@gmail.com</string>
+    <string name="urlGeneratePDF" translatable="false">/api/sendReport</string>
+    <string name="urlPostRapport" translatable="false">/api/rapport/id=</string>
+    <string name="pref_debug" translatable="false">correction</string>
+    <string name="bugfender_app_key" translatable="false">"le petit déjeuner "</string>
+    <string name="du">DU</string>
+    <string name="au">AU</string>
+    //new
+    <string name="qtglucolabel">Quantité de glucose avant un repas</string>
+    <string name="pd">Petit déjeuner</string>
+    <string name="mdc">Méthode de calcul</string>
+    <string name="addalim">Ajouter l\'aliment</string>
+    <string name="listalim">Liste des aliment</string>
+    <string name="act">Activités sportives</string>
+    <string name="calculer">Calculez maintenant</string>
+    <!-- Calendar -->
+    <string name="slycalendar_cancel">Annuler</string>
+    <string name="slycalendar_save">Confirmer</string>
+    <string name="slycalendar_next">Suivant</string>
+    <string name="slycalendar_prev">Précédent</string>
+    <string name="lange">fr</string>
+    <string name="period" translatable="false">%1$s – %2$s</string>
+    <string name="rappnosave">Erreur: le rapport n\'a pas été enregistré</string>
+    <string name="rappsave">Le rapport a été enregistré</string>
+    <string name="svpentredat">"Veuillez préciser la date "</string>
+
+    <string name="glucosup">Veuillez vérifier la quantité de glucose avant le  repas</string>
+    <string name="pupaptitle">Confirmation</string>
+    <string name="pupapmsg">Êtes-vous sûr de la quantité de glucose? </string>
+    <string name="msgconfirmation">Veuillez choisir une aliment dans la liste</string>
+    <string name="infoalim">Informations sur les aliments </string>
+    <string name="commentaire">Ajouter un commentaire</string>
+    <string name="param">Paramètres</string>
+    <string name="adrsite">L\'adresse du site</string>
+    <string name="ports">Port</string>
+    <string name="avec_livret">Avec livret</string>
+    <string name="sans_livret">Sans livret</string>
+    <string name="se_d_connecter">Se déconnecter</string>
+    <string name="a">"à "</string>
+    <string name="conf">" Vos résultats ont été confirmés"</string>
+    <string name="bien">Bien</string>
+
+    <string name="exit">Quitter</string>
+    <string name="estsur">vous êtes sur?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="Q_glicusd">"Veuillez entrer le glucose dans le repas"</string>
+    <string name="qtdglucolabel">Quantité de glucose dans un repas</string>
+    <string name="error">"erreur du serveur "</string>
+    <string name="pas_pu">Désolé vous ne pouvez pas se connecter vers le serveur</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#2b3fee</color>
+    <color name="white">#ffffff</color>
+    <color name="primary">#c62828</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="colorPrimaryLight">#807EFF</color>
+    <color name="grey">#E5E4EA</color>
+    <color name="radiocolor">#2B3FEE</color>
+    <color name="radiocolordisable">#D2D2D2</color>
+</resources>
